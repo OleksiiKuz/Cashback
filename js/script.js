@@ -121,4 +121,13 @@ $('a[href*="#"]').on('click', function (e) {
    }, 1000, 'linear');
 });
 
+//SCRIPT FOR BURGER-MENU
+$(function () {
+   $('.menu__btn').on('click', function() {
+      $('.header__navigation').slideToggle();
+   });
+
+
+});
+
 
